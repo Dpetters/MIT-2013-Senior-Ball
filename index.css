@@ -89,13 +89,13 @@ body{
     border-top:4px solid gray;
     border-bottom:4px solid gray;
 }
-#page_contents{
+.page_contents{
     display:none;
     position:absolute;
     top:40%;
     left:38%;    
 }
-#page_contents #venue{
+#general_info #venue{
     left:103px;
     position:relative;
 }

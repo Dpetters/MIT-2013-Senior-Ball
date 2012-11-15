@@ -5,6 +5,15 @@ $(document).ready(function(){
 	});
     });
 
+    $("#navigation a").live('click', function(e){
+        $(".page_contents").fadeOut('slow');
+        e.preventDefault();
+    });
+    $("#general_info_link").live('click', function(e){
+        $("#general_info").delay(300).fadeIn('slow');
+        e.preventDefault();
+    });
+
     // To initially run the function:
     $(window).resize();
 
@@ -12,6 +21,6 @@ $(document).ready(function(){
     $("#horizontal_bar_content").delay(1000).animate({width:'100%'}, 1000);
     $("#vertical_bar").delay(2000).animate({height:'100%'}, 'slow');
     $("#vertical_content").delay("2800").fadeIn('slow');
-    $("#page_contents").delay(3000).fadeIn('slow');
+    $("#general_info").delay(3000).fadeIn('slow');
 });
 
