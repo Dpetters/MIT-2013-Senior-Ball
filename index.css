@@ -44,7 +44,7 @@ body{
     border-right: 8px solid #606060;
     border-left: 8px solid #606060;
     position:absolute;
-    margin-left:13%;
+    margin-left:180px;
     overflow:hidden;
 }
 #vertical_bar #header {
@@ -99,7 +99,7 @@ body{
     display:none;
     position:absolute;
     top:10%;
-    left:38%;    
+    left:630px;    
 }
 .page_contents h1{
   margin-bottom:5px;
@@ -112,7 +112,7 @@ body{
   left:106px;
 }
 #general_info {
-  top:30%;
+  top:34%;
 }
 #general_info #venue #directions, #general_info #datetime #time {
   font-size:14px;
@@ -123,6 +123,9 @@ body{
 }
 #tickets .prices {
   margin-bottom:6px;
+}
+#tuxedo_rentals img {
+  height:250px;
 }
 #faq dd {
   margin-bottom:8px;
