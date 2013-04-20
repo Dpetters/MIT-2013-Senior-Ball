@@ -1,114 +1,150 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta property="og:title" content="2013.scripts.mit.edu/seniorball/" />
-        <meta property="og:url" content="http://2013.scripts.mit.edu/seniorball/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="MIT Senior Ball 2013" /> 
-        <link href="index.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta property="og:title" content="2013.scripts.mit.edu/seniorball/" />
+    <meta property="og:url" content="http://2013.scripts.mit.edu/seniorball/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MIT Senior Ball 2013" /> 
+    <link href="index.css" rel="stylesheet" type="text/css">
 
-        <title>MIT Senior Ball 2013</title>
-         
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="index.js"></script>
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-36295405-1']);
-          _gaq.push(['_trackPageview']);
-        
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-    </head>
-    <body>
-        <div id="container">
-            <div id="vertical_bar">
-                 <div id="header">
-                   <h1>MIT Class of 2013</h1>
-                   <h1>Senior Ball</h1>
-                   <!--
-                   <img src="banner.jpg"/>
-                   -->
-                 </div>
-                 <div id="vertical_content">
-                   <ul id="navigation">
-                     <li>
-                         <p><a id="general_info_link" href="#">General Info</a></p>
-                     </li>
-                     <li>
-                         <p><a id="tickets_link" href="#">Tickets</a></p>
-                     </li>
-                     <li class="coming">
-                         <p>Menu</p>
-                     </li>
-                     <li class="coming">
-                         <p>Seating</p>
-                     </li>
-                     <li>
-                     <p><a id="tuxedo_rentals_link" href="#">Tuxedo Rentals</a></p>
-                     </li>
-                     <li class="coming">
-                         <p>Photos</p>
-                     </li>
-                     <li>
-                     <p><a id="faq_link" href="#">FAQ</a></p>
-                     </li>
-                   </ul>
-                   <p class="coming"><strong>* coming soon</strong></p>
-                 </div>
-                 <p id="footer"><a href="mailto:seniorball13@mit.edu">contact us</a> | designed by <a target="_blank" href="http://www.dmitrijpetters.com">this guy</a></p>
+    <title>MIT Senior Ball 2013</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36295405-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+     </script>
+   </head>
+   <body>
+     <div id="container">
+       <div id="vertical_bar">
+         <div id="header">
+           <h1>MIT Class of 2013</h1>
+           <h1>Senior Ball</h1>
+           <!--
+           <img src="banner.jpg"/>
+           -->
+         </div>
+         <div id="vertical_content">
+           <ul id="navigation" class="red">
+             <li>
+               <p><a id="general_info_link" href="#">General Info</a></p>
+             </li>
+             <li>
+               <p><a id="tickets_link" href="#">Tickets</a></p>
+             </li>
+             <li>
+               <p><a id="menu_link" href="#">Menu</a></p>
+             </li>
+             <li>
+               <p><a id="seating_link" href="#">Seating</p>
+             </li>
+             <li>
+              <p><a id="tuxedo_rentals_link" href="#">Tuxedo Rentals</a></p>
+             </li>
+             <li class="coming">
+               <p>Photos</p>
+             </li>
+             <li>
+              <p><a id="faq_link" href="#">FAQ</a></p>
+             </li>
+           </ul>
+           <p class="coming"><strong>* coming soon</strong></p>
+         </div>
+         <p id="footer"><a href="mailto:seniorball13@mit.edu">contact us</a> | designed by <a target="_blank" href="http://www.dmitrijpetters.com">this guy</a></p>
+       </div>
+       <div id="horizontal_bar">
+         <div id="horizontal_bar_content">
+           <div id="general_info" class="page_contents">
+             <h1 id="datetime"><span class="faded">save the date</span> | may 11th, 2013 <span id="time">7-midnight</span></h1>
+             <h1 id="venue"><span class="faded">venue</span> | boston copley marriott <span id="directions">(<a target="_blank" href="http://goo.gl/maps/VcjJG">map</a>)</span></h1>
+             <br>
+             <p id="id_note">BRING MIT ID AND GOVERNMENT ID (21+)</p> 
+           </div>
+           <div id="tickets" class="page_contents">
+             <h1>Tickets</h1>
+             <p>Tickets are limited to 2 per MIT Senior. You must know your date's name when you buy him/her a ticket.</p>
+             <br>
+             <h2>Aquarium Night Special</h2>
+             <h3 class="prices">$25/$35 (cash only)*</h3>
+             <p><strong>When:</strong> Saturday 4/20, 9-11:30pm</p>
+             <p><strong>Where:</strong> New England Aquarium (<a target="_blank" href="http://goo.gl/maps/Co9L5">map</a>)</p>
+             <p class="asterisk"><strong>*</strong> Only one $25 ticket will be made available to each of the first 100 Class of 2013 members</p>
+             <br>
+             <h2>General Sales</h2>
+             <h3 class="prices">$35/$40 (online only)*</h3>
+             <p>Sales start week of April 22nd<p>
+             <p class="asterisk"><strong>*</strong> $35 tickets will be made available for a limited time only</p>
+           </div>
+           <div id="menu" class="page_contents">
+             <h1>Menu</h1>
+             <h3>
+               <span class="red">&sect;</span>
+               Appetizer
+             </h3>
+             <div class="item">
+               <h4>Mesclun Greens</h4>
+               <p>Roasted Apple ~ Almonds ~ Goat Cheese ~ Cippolini Vinaigrette</p>
              </div>
-             <div id="horizontal_bar">
-                 <div id="horizontal_bar_content">
-                     <div id="general_info" class="page_contents">
-                       <h1 id="datetime"><span class="faded">save the date</span> | may 11th, 2013 <span id="time">7-midnight</span></h1>
-                         <h1 id="venue"><span class="faded">venue</span> | boston copley marriott <span id="directions">(<a target="_blank" href="http://goo.gl/maps/VcjJG">map</a>)</span></h1>
-                         <br>
-                         <p id="id_note">BRING MIT ID AND GOVERNMENT ID (21+)</p> 
-                    </div>
-                    <div id="tickets" class="page_contents">
-                      <h1>Ticket Sales</h1>
-                      <p>Tickets are limited to 2 per MIT Senior. You must know your date's name when you buy him/her a ticket.</p>
-                      <br>
-                      <h2>Aquarium Night Special</h2>
-                      <h3 class="prices">$25/$35 (cash only)*</h3>
-                      <p><strong>When:</strong> Saturday 4/20, 9-11:30pm</p>
-                      <p><strong>Where:</strong> New England Aquarium (<a target="_blank" href="http://goo.gl/maps/Co9L5">map</a>)</p>
-                      <p class="asterisk"><strong>*</strong> Only one $25 ticket will be made available to each of the first 100 Class of 2013 members</p>
-                      <br>
-                      <h2>General Sales</h2>
-                      <h3 class="prices">$35/$40 (online only)*</h3>
-                      <p>Sales start week of April 22nd<p>
-                      <p class="asterisk"><strong>*</strong> $35 tickets will be made available for a limited time only</p>
-                     </div>
-                     <div id="menu" class="page_contents">
-                        Menu!
-                     </div>
-                     <div id="tuxedo_rentals" class="page_contents">
-                       <h1>Tuxedo Rentals</h1>
-                       <p>Please click on the brochure below for all tuxedo rental details.</p>
-                       <br>
-                       <a target="_blank" href="tux_rentals.png"><img src="tux_rentals.png"/></a>
-                     </div>
-                     <div id="faq" class="page_contents">
-                       <dl>
-                         <dt>Can my friend give me their ID so I can get him/her a ticket?</dt>
-                         <dd>No.</dd>
-                         <dt>What methods of payment do you accept for online sales?</dt>
-                         <dd>Credit cards and Techcash.</dd>
-                         <dt>How should I inform the senior ball committee of my dietary restrictions?</dt>
-                         <dd>When you buy your ticket online, there will be a field collecting this info. If you plan to purchase your ticket at the aquarium event, let the person selling you the ticket know.</dd>
-                       </dl>
-                       <br>
-                       <p><strong>Don't see an answer to your question?</strong> Email us at seniorball13@mit.edu</p>
-                     </div>
-                 </div>
+             <h3>
+               <span class="red">&sect;</span>
+               Choice of Entr&eacute;e
+             </h3>
+             <div class="item">
+               <h4>Kalamata Olive Chicken</h4>
+               <p>Bacon and Fennel Tomato Sauce ~ Parmesan Risotto ~ Broccolini</p>
              </div>
-        </div>
-    </body>
-</html>
+             <div class="item">
+               <h4>Portobello Wellington <img style="opacity=.7;" alt="(vegetarian)" title="vegetarian" src="vegetarian.gif" /></h4>
+               <p>Spinach ~ Goat Cheese ~ Faro ~ Herb Tomato Puree</p>
+             </div>
+             <h3>
+               <span class="red">&sect;</span>
+               Dessert</h3>
+             <div class="item">
+               <h4>Carrot Cheesecake</h4>
+               <p>Honey Cream ~ Pineapple Caramel ~ Chocolate Pearls &amp; Nuts</p>
+             </div>
+             <br>
+             <p><small><strong>Do you have dietary restrictions?</strong> Make sure to note them down in the online ticket sales form.</small></p>
+           </div>
+           <div id="seating" class="page_contents">
+             <h1>Seating</h1>
+             <p>We will begin taking seating arrangement requests on this page on Friday, May 3rd.</p>
+           </div>
+           <div id="tuxedo_rentals" class="page_contents">
+             <h1>Tuxedo Rentals</h1>
+             <p>Please click on the brochure below for all tuxedo rental details.</p>
+             <br>
+             <a target="_blank" href="tux_rentals.png"><img src="tux_rentals.png"/></a>
+           </div>
+           <div id="faq" class="page_contents">
+             <h1>FAQ</h1>
+             <dl>
+               <dt>Can my friend give me their ID so I can get him/her a ticket?</dt>
+               <dd>No.</dd>
+               <dt>What methods of payment do you accept for online sales?</dt>
+               <dd>Credit cards and Techcash.</dd>
+               <dt>How should I inform the senior ball committee of my dietary restrictions?</dt>
+               <dd>When you buy your ticket online, there will be a field collecting this info. If you plan to purchase your ticket at the aquarium event, let the person selling you the ticket know.</dd>
+               <dt>Are there discounted hotel rooms available?</dt>
+               <dd>As of now, no. This may change.</dd>
+             </dl>
+             <br>
+             <p><strong>Don't see an answer to your question?</strong> Email us at seniorball13@mit.edu</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </body>
+ </html>
