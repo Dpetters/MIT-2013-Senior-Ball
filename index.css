@@ -38,22 +38,28 @@ body{
 }
 #vertical_bar{
     height:0%;
-    width:18%;
+    width:360px;
     z-index:100;
     background:white;
-    border-right: 8px solid gray;
-    border-left: 8px solid gray;
+    border-right: 8px solid #606060;
+    border-left: 8px solid #606060;
     position:absolute;
     margin-left:13%;
     overflow:hidden;
 }
-#vertical_bar #header{
+#vertical_bar #header {
     text-align:center;
     margin-top:25%;
 }
+#vertical_bar #header img {
+  bottom:20px;
+  right:22px;
+  position:relative;
+  width:560px;
+}
 #vertical_content{
     display:none;
-    margin-top:30%;
+    margin-top:10%;
     margin-left:30%;
 }
 #vertical_bar ul{
@@ -92,8 +98,18 @@ body{
 .page_contents{
     display:none;
     position:absolute;
-    top:40%;
+    top:10%;
     left:38%;    
+}
+#general_info #id_note {
+  position:relative;
+  left:106px;
+}
+#general_info {
+  top:30%;
+}
+#general_info #venue #directions, #general_info #datetime #time {
+  font-size:14px;
 }
 #general_info #venue{
     left:103px;
@@ -104,4 +120,19 @@ body{
     text-align:center;
     bottom:6px;
     width:100%;
+}
+
+
+#faq dt {
+  font-weight:bold;
+}
+
+#faq dt:before {
+  content: "Q:  ";
+}
+
+
+#faq dd:before {
+  content: "A:   ";
+  margin-right:5px;
 }
