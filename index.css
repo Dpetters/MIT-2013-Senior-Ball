@@ -124,6 +124,9 @@ body{
 #tickets .prices {
   margin-bottom:6px;
 }
+#faq dd {
+  margin-bottom:8px;
+}
 #footer{
     position:absolute;
     text-align:center;
