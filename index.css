@@ -99,7 +99,8 @@ body{
     display:none;
     position:absolute;
     top:10%;
-    left:630px;    
+    left:630px;
+    max-width:740px; 
 }
 .page_contents h1{
   margin-bottom:5px;
@@ -128,7 +129,7 @@ body{
   height:250px;
 }
 #faq dd {
-  margin-bottom:8px;
+  margin-bottom:10px;
 }
 #footer{
     position:absolute;
