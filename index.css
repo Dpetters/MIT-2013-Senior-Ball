@@ -101,6 +101,9 @@ body{
     top:10%;
     left:38%;    
 }
+.page_contents h1{
+  margin-bottom:5px;
+}
 #general_info #id_note {
   position:relative;
   left:106px;
@@ -114,6 +117,9 @@ body{
 #general_info #venue{
     left:103px;
     position:relative;
+}
+#tickets .price {
+  margin-bottom:6px;
 }
 #footer{
     position:absolute;
