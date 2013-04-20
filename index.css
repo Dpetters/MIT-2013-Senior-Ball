@@ -104,6 +104,9 @@ body{
 .page_contents h1{
   margin-bottom:5px;
 }
+.page_contents .asterisk {
+  margin-top:8px;
+}
 #general_info #id_note {
   position:relative;
   left:106px;
@@ -118,7 +121,7 @@ body{
     left:103px;
     position:relative;
 }
-#tickets .price {
+#tickets .prices {
   margin-bottom:6px;
 }
 #footer{
