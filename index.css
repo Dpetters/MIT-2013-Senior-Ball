@@ -25,7 +25,7 @@ body{
 h3 {
   margin-bottom:5px
 }
-.coming{
+.unavailable{
   opacity:.4;
 }
 .faded{
@@ -68,7 +68,7 @@ h3 {
 }
 #vertical_content{
   display:none;
-  margin-top:30%;
+  margin-top:10%;
   margin-left:30%;
 }
 #vertical_bar ul{
@@ -86,7 +86,7 @@ h3 {
 #vertical_bar ul li a{
   text-decoration:none;
 }
-#vertical_bar ul li.coming p:after
+#vertical_bar ul li.unavailable p:after
 {
   content:"*";
 }
@@ -130,16 +130,25 @@ h3 {
   left:103px;
   position:relative;
 }
+#tickets .option:nth-of-type(n+2) {
+  margin-top:15px;
+}
 #tickets .prices {
   margin-bottom:6px;
 }
-#menu h3:nth-child(n+3) {
+#tickets .soldout {
+  top:20px;
+  left:260px;
+  font-weight:bold;
+  position:relative;
+}
+#menu h3:nth-of-type(n+2) {
   margin-top:15px;
 }
 #menu .item{
   margin-left:25px;
 }
-#menu .item:nth-child(n+3) {
+#menu .item:nth-of-type(n+2) {
   margin-top:5px;
 }
 #menu .item p {

@@ -7,6 +7,8 @@
     <meta property="og:site_name" content="MIT Senior Ball 2013" /> 
     <link href="index.css" rel="stylesheet" type="text/css">
 
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0, maximum-scale=1">
+    
     <title>MIT Senior Ball 2013</title>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -29,11 +31,7 @@
      <div id="container">
        <div id="vertical_bar">
          <div id="header">
-           <h1>MIT Class of 2013</h1>
-           <h1>Senior Ball</h1>
-           <!--
            <img src="banner.jpg"/>
-           -->
          </div>
          <div id="vertical_content">
            <ul id="navigation" class="red">
@@ -52,14 +50,14 @@
              <li>
               <p><a id="tuxedo_rentals_link" href="#">Tuxedo Rentals</a></p>
              </li>
-             <li class="coming">
+             <li class="unavailable">
                <p>Photos</p>
              </li>
              <li>
               <p><a id="faq_link" href="#">FAQ</a></p>
              </li>
            </ul>
-           <p class="coming"><strong>* coming soon</strong></p>
+           <p class="unavailable"><strong>* coming soon</strong></p>
          </div>
          <p id="footer"><a href="mailto:seniorball13@mit.edu">contact us</a> | designed by <a target="_blank" href="http://www.dmitrijpetters.com">this guy</a></p>
        </div>
@@ -74,17 +72,20 @@
            <div id="tickets" class="page_contents">
              <h1>Tickets</h1>
              <p>Tickets are limited to 2 per MIT Senior. You must know your date's name when you buy him/her a ticket.</p>
-             <br>
-             <h2>Aquarium Night Special</h2>
-             <h3 class="prices">$25/$35 (cash only)*</h3>
-             <p><strong>When:</strong> Saturday 4/20, 9-11:30pm</p>
-             <p><strong>Where:</strong> New England Aquarium (<a target="_blank" href="http://goo.gl/maps/Co9L5">map</a>)</p>
-             <p class="asterisk"><strong>*</strong> Only one $25 ticket will be made available to each of the first 100 Class of 2013 members</p>
-             <br>
-             <h2>General Sales</h2>
-             <h3 class="prices">$35/$40 (online only)*</h3>
-             <p>Sales start week of April 22nd<p>
-             <p class="asterisk"><strong>*</strong> $35 tickets will be made available for a limited time only</p>
+             <span class="red soldout">SOLD OUT</span>
+             <div class="option unavailable">
+               <h2>Aquarium Night Special</h2>
+               <h3 class="prices">$25/$35 (cash only)*</h3>
+               <p><strong>When:</strong> Saturday 4/20, 9-11:30pm</p>
+               <p><strong>Where:</strong> New England Aquarium (<a target="_blank" href="http://goo.gl/maps/Co9L5">map</a>)</p>
+               <p class="asterisk"><strong>*</strong> Only one $25 ticket will be made available to each of the first 100 Class of 2013 members</p>
+             </div>
+             <div class="option">
+               <h2>General Sales</h2>
+               <h3 class="prices">$35/$40 (online only)*</h3>
+               <p>Sales start week of April 22nd<p>
+               <p class="asterisk"><strong>*</strong> $35 tickets will be made available for a limited time only</p>
+             </div>
            </div>
            <div id="menu" class="page_contents">
              <h1>Menu</h1>
