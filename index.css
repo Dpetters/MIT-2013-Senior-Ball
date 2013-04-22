@@ -6,7 +6,9 @@ html,body{
   height:100%;
   width:100%;
 }
-
+ul {
+  margin:0;
+}
 p, a{
   color:#444;
 }
@@ -16,11 +18,9 @@ body{
   background: url('https://dl.dropbox.com/u/13304247/background.jpg') no-repeat;
   background-size:cover;
 }
-h3 {
+h1, h2, h3, h4{
+  margin-top:5px;
   margin-bottom:5px
-}
-.unavailable{
-  opacity:.4;
 }
 .faded{
   color:#888;
@@ -121,26 +121,15 @@ h3 {
   left:104px;
   position:relative;
 }
-#tickets .option:nth-of-type(1) {
-  margin-top:15px;
+#menu h4, #menu p{
+  margin-top:0;
+  margin-bottom:0;
 }
-#tickets .prices {
-  margin-bottom:6px;
-}
-#tickets .soldout {
-  top:20px;
-  left:260px;
-  font-weight:bold;
-  position:relative;
-}
-#menu h3:nth-of-type(n+2) {
-  margin-top:15px;
+#menu h3:nth-of-type(n+2){
+  margin-top:10px;
 }
 #menu .item{
   margin-left:25px;
-}
-#menu .item:nth-of-type(n+2) {
-  margin-top:5px;
 }
 #menu .item p {
   font-style:italic;

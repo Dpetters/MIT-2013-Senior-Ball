@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $(window).resize(function(){
 	  $('#horizontal_bar').css({top: ($(window).height() - $('#horizontal_bar').outerHeight())/2});
   });
@@ -21,6 +22,10 @@ $(document).ready(function(){
   $("#horizontal_bar_content").delay(1000).animate({width:'100%'}, 1000);
   $("#vertical_bar").delay(2000).animate({height:'100%'}, 'slow');
   $("#vertical_content").delay("2800").fadeIn('slow');
-  $("#general_info").delay(3000).fadeIn('slow');
+  var id_to_show = "#general_info";
+  if(location.hash != "" && $(location.hash).length > 0){
+    id_to_show = location.hash;
+  }
+  $(id_to_show).delay(3000).fadeIn('slow');
 });
 
