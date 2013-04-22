@@ -1,3 +1,4 @@
+
 *{
   margin:0px;
   padding:0px;
@@ -127,10 +128,10 @@ h3 {
   font-size:14px;
 }
 #general_info #venue{
-  left:103px;
+  left:104px;
   position:relative;
 }
-#tickets .option:nth-of-type(n+2) {
+#tickets .option:nth-of-type(1) {
   margin-top:15px;
 }
 #tickets .prices {
