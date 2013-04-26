@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $(window).resize(function(){
-	  $('#horizontal_bar').css({top: ($(window).height() - $('#horizontal_bar').outerHeight())/2});
+	  $('#horizontal_bar').css({top: .66*(($(window).height() - $('#horizontal_bar').outerHeight())/2)});
   });
 
   navigating = false
@@ -9,8 +9,12 @@ $(document).ready(function(){
     if (!navigating) {
       navigating = true
       $(".page_contents").fadeOut('slow');
+      id = $(this).attr("id").split("_").slice(0, -1).join("_");
       $("#" + $(this).attr("id").split("_").slice(0, -1).join("_")).delay(300).fadeIn('slow');
-      navigating = false
+      if(id=="theme") {
+         setTimeout('addDot()',300);  
+      }
+      navigating = false;
     }
     e.preventDefault();
   });
@@ -29,3 +33,17 @@ $(document).ready(function(){
   $(id_to_show).delay(3000).fadeIn('slow');
 });
 
+var addDot = function() {
+  loadScript("http://assets.pinterest.com/js/pinit.js");
+}
+function loadScript(url)
+{
+     var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+           script.type = 'text/javascript';
+              script.src = url;
+                    head.appendChild(script);
+}
+var myPrettyCode = function() {
+
+};
