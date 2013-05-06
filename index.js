@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  
   $(window).resize(function(){
 	  $('#horizontal_bar').css({top: .66*(($(window).height() - $('#horizontal_bar').outerHeight())/2)});
   });

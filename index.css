@@ -136,6 +136,10 @@ h1, h2, h3, h4{
 #menu .item p {
   font-style:italic;
 }
+
+.ss-form-title {
+  margin-top:0px;
+}
 #tuxedo_rentals img {
   height:250px;
 }
