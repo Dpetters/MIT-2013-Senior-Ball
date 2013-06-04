@@ -15,7 +15,7 @@ p, a{
 
 body{
   background-color: #AAA;
-  background: url('https://dl.dropbox.com/u/13304247/background.jpg') no-repeat;
+  background: url('background.jpg') no-repeat;
   background-size:cover;
 }
 h1, h2, h3, h4{
